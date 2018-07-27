@@ -1,0 +1,16 @@
+
+<script type="text/javascript">
+	window.addEventListener('load',function () {
+	//console.log('Hi')
+	var allALink= document.querySelectorAll('a')
+	for (var a of allALink) {
+	  // console.log(a.getAttribute('href'));
+	  // a.getAttribute('herf');
+	  if(a.getAttribute('href').includes('wordpress-gallery')){
+	  	//console.log(a)
+	  	a.style.display = 'none';
+	  }
+	}
+
+},false);
+</script>
