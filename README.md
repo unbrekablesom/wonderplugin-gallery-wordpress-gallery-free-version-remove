@@ -1,0 +1,1 @@
+# wonderplugin-gallery-wordpress-gallery-free-version-remove
